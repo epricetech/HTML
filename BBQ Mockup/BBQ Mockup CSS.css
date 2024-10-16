@@ -1,0 +1,171 @@
+body {
+	background-color: white;
+	position: relative;
+	margin: auto;
+	background-color: #eee;
+	
+}
+#container {
+	background-color: white;
+	height: 650px;
+	width: 990px;
+	margin: auto;
+	position: relative;
+}
+#top {
+	height: 125px;
+	background-image: url("CIS195final/tweed.png");
+}
+#logo {
+	position: absolute;
+	height: 150px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+#button {
+	width: 300px;
+	float: right;
+	margin: 10px;
+	color: white;
+	font-weight: bold;
+	
+}
+#email {
+	height: 30px;
+	width: 300px;
+}
+#signup {
+	height: 100px;
+	margin-left: 550px;
+	margin-top: 10px;
+	
+}
+nav ul {
+	padding: 0px;
+	list-style-type: none;
+	margin-left: 160px;
+	
+	}
+
+nav ul li {
+	
+	display: inline-block;
+	background-color: #f4ca0e;
+	height: 40px;
+	text-align: center;
+	width: 130px;			
+	}
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	font-size: 12pt;
+	border-right: 1px solid black;
+	color: black;
+	
+		
+	}
+#twit {
+	height: 30px;
+	margin: 5px;
+	float: right;
+	
+}
+#face {
+	height: 30px;
+	margin: 5px;
+
+	
+}
+#join {
+	width: 75px;
+	height: 30px;
+	border: 10px;
+	font-size: 14pt;
+	background-color: #f4ca0e;
+	
+}
+nav ul li a:hover {
+	font-weight: bold;
+	color: white;
+	display: block;
+	}
+#left {
+	float: left;
+	height: 250px;
+	width: 295px;
+	margin: 16px;
+	background-color: #eee;
+	border: 1px;
+	text-align: center;
+	
+}
+#middle {
+	height: 250px;
+	width: 295px;
+	margin-left: 357px;
+	background-color: #eee;
+	margin-top: 16px;
+	border: 1px;
+	text-align: center;
+}
+#right {
+	height: 250px;
+	width: 295px;
+	background-color: #eee;
+	border: 1px;
+	float: right;
+	margin-top: -250px;
+	text-align: center;
+	
+}
+#container h1 {
+	background-color: #f4ca0e;
+	font-size: 18pt;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	text-shadow: 2px 2ps 2px #000;
+		
+}
+#drinks {
+	width: 250px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#special {
+	width: 250px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#wings {
+	width: 250px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+p {
+	text-align: center;
+	margin: 20px;
+}
+#hours {
+	width: 250px;
+	margin-top: 10px;
+	text-align: center;
+}
+footer {
+	text-align: center;
+	width: 990px;
+	font-size: 10pt;
+	background-color: black;
+	color: white;
+	margin: auto;
+	
+}
+#banner {
+	background-color: #f4ca0e;
+}	
