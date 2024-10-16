@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Drop Down</title>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #ccc;
+}
+
+#container {
+	width: 800px;
+	background-color: #fff;
+	margin: auto;
+}
+nav {
+	width: 800px;
+}
+nav ul {
+	width: 600px;
+}
+nav ul li {
+	width: 150px;
+	list-style-type: none;
+	position: relative;
+	}
+nav ul li a {
+	display: block;
+	background-color: #900;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	padding: 2px;
+	text-decoration: none;
+	margin: 2px;
+}
+li a:hover {
+	background-color: blue;
+}
+li ul {
+	display: none;
+}
+li:hover ul {
+	display: block;
+	position: absolute;
+	left: 150px;
+	top: 0;
+	
+}
+li.level-three ul {
+	display: none;
+}
+li.level-three:hover ul {
+	display: block;
+	postion: absolute;
+	left: 150px;
+	top: 0;
+}
+li:hover > a {
+	color: gold;
+	background-color: grey;
+}
+</style>
+
+</head>
+<body>
+<div id="container">
+<nav>
+	<ul>
+	<li><a href="#">AFC</a>
+		<ul>
+			<li><a href="#">West</a></li>
+			<li><a href="#">East</a></li>
+			<li><a href="#">Central</a></li>
+		
+		</ul>
+	</li>
+	<li><a href="#">NFC</a>
+		<ul>
+			<li class="level-three"><a href="#">West</a>
+				<ul>
+					<li><a href="#">Seattle</a></li>
+					<li><a href="#">San Fran</a></li>
+					<li><a href="#">Arizona</a></li>
+				
+				</ul>
+			</li>
+			<li><a href="#">East</a></li>
+			<li><a href="#">Central</a></li>
+		
+		</ul>
+	</li>
+	
+	</ul>
+</nav>
+</div>
+
+</body.
+</html>
