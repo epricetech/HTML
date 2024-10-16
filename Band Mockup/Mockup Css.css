@@ -1,0 +1,122 @@
+
+body {
+	
+	background-color: black;
+	background-image: url("pracfinal/pracfinal/popcorn-bg.jpg");
+}
+#container {
+	width: 800px;
+	height: 600px;
+	background-color: white;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	position: relative;
+}
+#top {
+	height: 150px;
+	border-top: 10px solid #900;
+	border-bottom: 10px solid #006;
+	background-image: url("pracfinal/pracfinal/stars-bg.jpg");
+	
+	
+}
+#allstar {
+	height: 100px;
+	margin: 25px;
+	float: left;
+}
+
+#search {
+	width: 300px;
+	height: 40px;
+	font-size: 16pt;
+	margin-top: 50px;
+	margin-left: 150px;
+}
+#button {
+	height: 40px;
+	font-size: 16pt;
+}	
+#left {
+	width: 200px;
+	background-color: #900;
+	padding: 10px;
+	margin-top: 10px;
+	float: left;
+}
+table {
+	width: 200px;
+	margin-bottom: 50px;
+	text-align: justify;
+
+}
+#ad {
+	width: 200px;
+	margin-top: 50px;
+}
+nav ul {
+	text-align: center;
+	padding: 0px;
+	list-style-type: none;
+	margin: auto;
+	margin-top: 10px;	
+	}
+
+nav ul li {
+	width: 100px;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	border: 2px outset blue;
+	background-color: yellow;
+				
+	}
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: red;
+	
+	}
+#main {
+margin-left: 210px;
+padding: 10px;
+}
+nav ul li a:hover {
+	display: block;
+	color: yellow;
+	background-color: red;
+	}
+#trailer {
+	width: 200px;
+	margin: 10px;
+	float: left;
+}
+#main h1 {
+	text-align: center;
+}
+#main p {
+	text-align: justify;
+	font-size: 12pt;
+	font-family: verdana, sans-serif;
+	background-color: #eee;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+footer {
+	text-align: center;
+	margin-top: 60px;
+	
+}
+#date {
+	width: 150px;
+}
+#zip {
+	width: 75px;
+}
+select {
+	width: 150px;
+}
+
+	
