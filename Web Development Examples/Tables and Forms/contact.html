@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+
+<style>
+body {
+	background-color: lightblue;
+}
+#container {
+	background-color: grey;
+	width: 800px;
+	height: 100%;
+	overflow: hidden;
+	margin: auto;
+}
+form {
+	text-align: center;
+}
+#container h1 {
+	color: blue;
+	font-size: 24pt;
+	text-align: center;
+}
+input[type=text], input[type=date] {
+	width: 400px;
+	height: 40px;
+	color: blue;
+	font-size: 24pt;
+	margin-bottom: 25px;
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	}
+label {
+	font-size: 24pt;
+	color: blue;
+}
+#message {
+	height: 200px;
+}
+</style>
+</head>
+<body>
+<div id="container">
+<h1>Contact Form</h1>
+<form action="http://www.webdev258.cocc-webdev.org" method='post'>
+
+<fieldset id='form'>
+<label for='name'>Your Name: </label><input type='text' name='name' id='name'><br>
+<label for='email'>Email Address: </label><input type='text' name='email' id='email'><br>
+<label for='bdate'>Birthdate: </label><input type='date' name='bdate' id='bdate'><br>
+<label for="message">Message: </label><input type='text' name='message' id='message'> <br>
+</fieldset>
+<input type="submit" value="Submit Form">
+
+</form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+body {
+	background-image: linear-gradient(to bottom, #006600, #cccc00);
+	background-image: -webkit-linear-gradient(#006600, #cccc00);
+	background-image: -ms-linear-gradient(#006600, #cccc00);
+	background-image: -o-linear-gradient(#006600, #cccc00);
+}
+#container {
+	width: 100%;
+	margin: auto;
+	height: 80%;
+	overflow: hidden;
+}
+
+#left {
+	Float: left;
+	background-color: #99cc33;
+	width: 150px;
+	height: 600px;
+}
+#right {
+	float: right;
+	background-color: #a3a3a3;
+	color: white;
+	width: 150px;
+	height: 600px;
+	border: black groove 3px;
+}
+#right h3 {
+	text-align: left;
+	font-size: 24pt;
+	text-shadow: 5px 5px 5px blue;
+	}
+#right ul li{
+	text-align: left;
+	font-size: 16pt;
+}
+#middle {
+	background-image: linear-gradient(to bottom, #cccc00, #006600);
+	background-image: -webkit-linear-gradient(#cccc00, #006600);
+	background-image: -ms-linear-gradient(#cccc00, #006600);
+	background-image: -o-linear-gradient(#cccc00, #006600);
+	height: 800px;
+	margin-left: 160px;
+	margin-right: 160px;
+}
+#middle p {
+	font-size: 24pt;
+	padding:.5em;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+#middle a {
+	font-size: 32pt;
+}
+#container h1 {
+	font-family: audiowide cursive;
+	text-shadow: 3px 3px 5px white;
+	font-size: 72px;
+	background-color: #003300;
+	border-radius: 10px;
+	text-align: center;
+	
+}
+#menu a{
+	text-decoration: none;
+	color: yellow;
+	background-color: grey;
+	border: 3px inset black;
+	padding: .5em 2em .5em;
+	}
+#menu {
+	text-align: center;
+	display: block;
+	margin: 30px;
+	word-spacing: 15px;
+	}
+#left {
+	border: black groove 3px;
+}
+#left a {
+	text-decoration: none;
+	}
+
+#left ul li {
+	padding-bottom: 5em;
+	font-size: 18pt;
+	}
+#left a:link {
+	color: blue;
+}
+#left a:visited {
+	color: red;
+}
+#left a:hover {
+	color: #330000;
+}
+#left a:active {
+	color: #990080
+}
+
+#menu a:link {
+	color: blue;
+}
+
+#menu a:visited {
+	color: red;
+}
+
+#menu a:hover {
+	color: #330000;
+	border: 5px outset red;
+}
+
+#menu a:active {
+	color: #990080;
+	border: 5px outset black;
+	background-color: white;
+}	
+#container h2 {
+	text-align: center;
+	font-size: 32pt;
+	background-color: grey;
+	text-shadow: 5px 5px 5px blue;
+}
+#content h4 {
+	text-align: center;
+	font-size: 24pt;
+	color: blue;
+	text-shadow: 2px 2px 2px white;
+}
+#content p {
+	font-size: 18px;
+}
+#content a {
+	font-size: 18px;
+	color: white;
+	text-shadow: 5px 5px 5px blue;
+		}
+#torrpic {
+	float: left;
+}
+#piceztv {
+	float: left;
+	width: 150px;
+	height: 75px;
+	}
+#kickasspic {
+	float: left;
+	width: 150px;
+	height: 75px;
+}
+#piratepic {
+	float: left;
+	width: 150px;
+	height: 75px;
+}
+#list {
+	text-align: center;
+	font-size: 24pt;
+	color: white;
+	text-shadow: 3px 3px 3px blue;
+		
+}
+#list ul li {
+	list-style-type: none;
+}
+#picdoc {
+	float: left;
+	width: 175px;
+	height: 200px;
+}
+#picncis {
+	float: right;
+	width: 175px;
+	height: 200px;
+}
+#picsnl {
+	width: 175px;
+	height: 200px;
+	float: right;
+}
+#picmag {
+	float: left;
+	width: 175px;
+	height: 200px;
+}
+#piccastle {
+	width: 175px;
+	height: 200px;
+}
+#steps p {
+	font-size: 16pt;
+	text-align: left;
+	margin: 0px;
+	color: black;
+	text-shadow: 3px 3px 3px white;
+}
+#steps h3 {
+	margin: 0px;
+	font-size: 24px;
+	color: blue;
+	text-shadow: 3px 3px 3px white;
+}
+#picbit {
+	width: 150px;
+	height: 200px;
+	float: left;
+	margin-bottom: 10px;
+}
+#picu {
+	width: 150px;
+	height: 200px;
+	float: left;
+}
+#steps a {
+	font-size: 16pt;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Week 3 CSS Lab</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../styles/Lab3CSS.css">
+</head>
+<!--Create an external stylesheet from the inline styles contained within this document.-->
+<body>
+<header>
+<h1>Week 3 Lab</h1>
+<h3>Inline v External Styles</h3>
+</header>
+<article>
+<p>
+This page is completely made from inline styles. Please remove all of the inline style attributes and place them in a linked external style sheet.
+</p>
+<h2>Border Properties</h2>
+<ul>
+	<li>Syntax - border: width style color</li>
+	<li>Common style options - solid, dashed, inset, outset, etc</li>
+</ul>
+<h2>Link Properties</h2>
+<ul>
+	<li>Link states (Pseudo classes) - "normal", visitied, hover, active</li>
+	<li>Text Decoration - underlined or not...</li>
+</ul>
+<p>Here is an example of a <a href="#">styled link</a>. It's color and text-decoration are set.
+Additionally, make this link change color when the user hovers over the link.
+</p>
+</article>
+<footer>
+CIS 195 - COCC &copy;
+</footer>
+</body>
+</html>

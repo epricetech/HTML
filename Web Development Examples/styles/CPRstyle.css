@@ -1,0 +1,73 @@
+body{
+	background-color: #a6a200;
+	font-size:150%;
+	padding: 2em .5em 2em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	}
+#content{
+	color: white; 
+		}
+#content h1{
+	color: blue;
+	}
+#content h2{
+		color: red;
+		font-style: italic;
+		}
+#content h3{
+	color: #ff7400;
+			}
+#content h4 {
+	color: yellow;
+	}
+#content h5{
+	color: #080708;
+	font-style: oblique;
+		}
+#content h6{
+	color: #87f5f3;
+	font-size: xx-small;
+	}
+header h1{
+	color: #680bab;
+	}
+header h2{
+	color: #cd0074;
+	}
+header {
+	border-bottom: 4px solid #7277d8;
+	}
+h3 {
+	color: #51525e;
+	text-decoration: underline;
+	}
+ol {
+		list-style-type: upper-roman;
+	}
+ul {
+	list-style-type: square;
+	}
+li {
+	color: #a8454a;
+	}
+dt {
+	color: red;
+	}
+dd {
+	color: white;
+	}
+a:link {
+	color: #0569f5;
+	}
+a:visted {
+	color: #fff500;
+	}
+a:hover {
+	color: #e93a90;
+	}
+a:active {
+	color: #ff0000
+	}
+	

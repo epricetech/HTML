@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Javascript Demo</title>
+<style>
+body {
+	background-color: #000;
+}
+h1 {
+	color: orange;
+	text-align: center;
+}
+#txt {
+	color: yellow;
+	text-align: center;
+}
+#btn {
+	margin-left: 400px; 
+}
+</style>
+<script>
+function generateText() {
+	var txt = "Javascript provides additional funtionality to the browser";
+	document.getElementById('txt').innerHTML = txt;
+}
+
+</script>
+
+</head>
+<body>
+<h1>What is Javascript</h1>
+<hr>
+
+<p id='txt'>
+Javascript is a client-side language.
+</p>
+<button onclick="generateText()" id="btn">Click Me</button>
+
+
+
+</body>
+</html>

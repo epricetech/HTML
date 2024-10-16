@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio6</title>
+<meta charset="utf-8">
+<style>
+body {
+	background-color: black;
+}
+#container {
+	background-color: grey;
+	margin: auto;
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+}
+form {
+	background-color: #bbb;
+	height: 400px;
+	width: 400px;
+	margin: auto;
+	padding: 10px;
+}
+label {
+	float: left;
+	width: 100px;
+	}
+#classified-info {
+	border: 1px solid yellow;
+	border-radius: 3px;
+	}
+#container h1 {
+	text-align: center;
+	color: yellow;
+	background-color: green;
+	font-size: 24pt;
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+<h1>Portfolio 6</h1>
+<form action="http://www.espn.com" method='post'>
+	<fieldset id='classified-info'>
+<label for='name'>Name: </label><input type='text' name='name' id='name'><br>
+<label for='code_name'>Code Name: </label><input type='text' name='code_name' id='code_name'><br>
+<label for='auth'>Authentication Code: </label><input type='text' name='auth' id='auth'> 
+	</fieldset>
+	Are you a Human Being? <input type='checkbox' name='human' value='yes' required>
+	<select name='specialty'>
+		<option name='specialty' id="XXX">Pick a specialty</option>
+		<option name='specialty' id="HH">Hand to Hand</option>
+		<option name='specialty' id="Fire">Firearms</option>
+		<option name='specialty' id="EX">Explosives</option>
+		<option name='specialty' id="UN">Under Cover</option>
+	</select><br>
+	<input type='submit' value='Confim' name='submit'>	
+	<input type='reset' value='Clear' name='clear'>
+	<textarea cols='40' rows='10' name='comments'>Contact Security</textarea>
+	
+	</form>
+
+</div>
+<a href ="portfolio.html">Back to Portfolio Page</a>
+<a href ="../index.html">Back to Main Page</a>
+</body>
+</html>
